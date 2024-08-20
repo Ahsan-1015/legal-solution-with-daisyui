@@ -24,11 +24,11 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-     <!--font style -->
+    <!--font style -->
     <style>
         .font-Poppins {
 
-            font-family: "Poppins", sans-serif;  
+            font-family: "Poppins", sans-serif;
             font-style: normal;
         }
 
@@ -46,6 +46,14 @@
                     colors: {
                         'justic-primary': '#B68C5A',
 
+                        'dark-2': '#414040',
+
+                        'dark-3': '#707070',
+
+                        'dark-4': '#A0A0A0',
+
+                        'dark-6': '#E7E7E7',
+
                     }
                 }
             }
@@ -54,13 +62,111 @@
 
 </head>
 
-<body>
-    <header>
-      
+<body class="font-Poppins">
+    
+    <!-- header section  -->
+    <header class="container mx-auto">
+        <!-- navber section  -->
+        <nav class="mt-5">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home ></a></li>
+                            <li><a>Service ></a></li>
+                            <li><a>Cases ></a></li>
+
+                            <li><a>Blog ></a></li>
+                            <li><a>Contact Us ></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- nav ber text start -->
+                    <a href="#"><img src="./images/logo2.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex ">
+                    <ul class="menu menu-horizontal px-1 text-dark-3">
+                        <li><a>Home <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </a></li>
+
+                        <li><a>Service <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </a></li>
+
+                        <li><a>Cases <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </a></li>
+
+                        <li><a>Blog <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </a></li>
+
+                        <li><a>Contact Us <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </a></li>
+                </div>
+                <div class=" navbar-end ">
+                    <a class="btn  bg-justic-primary text-white ">Free Consultation</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- bannner section  -->
+        <section class="mt-12">
+            <div class="hero lg:h-[570px;] sm:h-auto" style="background-image: url(./images/banner.png);">
+
+                <div class="hero-overlay bg-opacity-50"></div>
+                <!-- banner text start -->
+                <div class="hero-content text-neutral-content text-center w-6/12">
+                    <div class="">
+                        <h1 class="mb-5 lg:text-7xl font-extrabold md:text-3xl font-eb-garamond text-white leading-[85px]">We Provide Effective <br> Legal
+                            Solutions</h1>
+                        <p class="mb-5 text-dark-6 lg:text-base sm:text-xs">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour.
+                        </p>
+
+                        <div class=" flex justify-between ">
+                            <!-- md -->
+                            <input type="text" placeholder="Search your services"
+                                class="input input-bordered  lg:w-9/12 md:w-6/12 "  />
+
+
+                            <button class="btn bg-justic-primary text-white px-12 py-2 border-none text-xl">Serch</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
-    <main>
-        
+    <main class="container mx-auto">
+
     </main>
 
     <footer>
